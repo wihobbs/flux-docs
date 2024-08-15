@@ -606,7 +606,7 @@ caused segfaults of MPI in ``MPI_Finalize`` when UCX PML was used.
 A special `job shell plugin <https://github.com/flux-framework/flux-pmix>`_,
 offered as a separate package, is required to bootstrap the upcoming openmpi
 5.0.x releases.  Once installed, the plugin is activated by submitting a job
-with the ``-ompi=openmpi@5`` option.
+with the ``-ompi=openmpi@5`` and/or ``-opmi=pmix`` options.
 
 .. _openmpi_config:
 
